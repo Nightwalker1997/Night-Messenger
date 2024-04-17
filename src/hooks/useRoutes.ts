@@ -23,13 +23,13 @@ const useRoutes = () => {
             label: "Chat",
             href: "/conversations",
             icon: faComments,
-            active: pathName.endsWith("/conversation") || !!conversationId,
+            active: pathName === '/conversations' || !!conversationId,
         },
         {
             label: "Users",
             href: "/users",
             icon: faUsers,
-            active: pathName.endsWith("/users") || !!conversationId,
+            active: pathName === '/users' || !!conversationId,
         },
         {
             label: "Theme",
