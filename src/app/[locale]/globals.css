@@ -1,0 +1,36 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base{
+    /* default{light} mode */
+    :root{
+        --c-bg: 249 252 255;
+        --c-tx: 33 37 41;
+        
+        --c-primary: 114 9 183;
+        --c-secondary: 82 183 136;
+        
+        --c-warning: 219 180 44;
+        --c-error: 133 24 42;
+        --c-success: 0 100 0;
+        --c-info: 0 119 182;
+    } 
+    /* dark mode */
+    :root[data-theme="dark"] {
+        --c-bg: 33 37 41;
+        --c-tx: 248 249 250;
+/*         
+        --c-primary: 114 9 183;
+        --c-secondary: 82 183 136;
+        
+        --c-warning: 219 180 44;
+        --c-error: 133 24 42;
+        --c-success: 0 100 0;
+        --c-info: 0 119 182; */
+    }
+}
+
+html, body, :root{
+    height: 100%;
+}

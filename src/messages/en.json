@@ -1,0 +1,25 @@
+{
+    "Index":{
+        "title": "HI HOW ARE YOU?"
+    },
+    "login":{
+
+    },
+    "register":{
+
+    },
+    "Form":{
+        "register_title": "Create an account",
+        "login_title": "Sign in to your account",
+        "register": "Register",
+        "login": "Sign in",
+        "name" : "Name: ",
+        "email": "Email: ", 
+        "password": "Password: ",
+        "or": "Or continue with "
+    },
+    "State":{
+        "people": "People",
+        "emptyState": "Select a chat or start a new conversation."
+    }
+}
